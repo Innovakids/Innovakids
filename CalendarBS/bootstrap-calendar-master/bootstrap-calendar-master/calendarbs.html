@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>jQuery Calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+        
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="css/calendar.css" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+        <script src="js/calendarGrid.js"></script>
+       
+    
+    <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-calendar.min.css">
+
+    
+      
+</head>
+<body>
+<div class="container">
+        <div class="row">
+                <div class="span12">
+                        <h2>jQuery Calendar</h2>
+                </div>
+        </div>
+        <div class="row">
+               
+            
+            
+            
+            
+            
+            
+            
+            
+          <ul data-ui="calendar">
+<li><b data-is="date">Today</b> The day you discovered bootstrap-calendar</li>
+<li><b data-is="date">Tomorrow</b> The day you finished your project</li>
+<li><b data-is="date">Next Friday</b> Celebrate victory</li>
+            </ul>
+  
+            
+            <div id="calendar"></div>
+
+    <script type="text/javascript" src="js/vendor/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/vendor/underscore-min.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>
+    <script type="text/javascript">
+        var calendar = $("#calendar").calendar(
+            {
+                tmpl_path: "/tmpls/",
+                events_source: function () { return []; }
+            });         
+    </script>
+
+            
+            
+            
+        </div>
+    
+    
+    
+</div>
+<div id="footer">
+  <div class="container">
+    <p class="muted credit">@2014 <a href="#">Vivaldi Systems</a></p>
+  </div>
+</div>
+    
+    <script src="/bootstrap-calendar/dist/js/underscore.min.js"></script>
+<script src="/bootstrap-calendar/dist/js/backbone.min.js"></script>
+<!-- bootstrap-calendar core library: -->
+<script src="/bootstrap-calendar/dist/js/bootstrap-calendar.min.js"></script>
+
+    
+    
+</body>
+</html>

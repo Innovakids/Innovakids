@@ -1,0 +1,134 @@
+/* CSS Document */
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a:link
+{
+color:#000;
+text-decoration:none;
+}
+a:hover
+{
+color:#009900;
+text-decoration:none;
+}
+.header
+{
+background:url(../images/header.jpg) repeat-x;
+height:149px;
+}
+
+.tit
+{
+background:url(../images/tit.jpg) repeat-x;
+height:31px;
+padding-left:10px;
+font-weight:bold;
+line-height:31px;
+}
+
+.btm
+{
+background:url(../images/btm.jpg) repeat-x;
+height:74px;
+line-height:74px;
+text-align:center;
+}
+
+
+#nav {
+	line-height:0px;
+	padding:6px 0px 0px 0px;
+	margin:0 0 5px 0;
+
+}
+
+#nav a {
+	color: #ffffff;
+	background:url(../images/btn.jpg) repeat-x;
+	height:23px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:4px 10px 4px 10px;
+	border:1px solid #566d36;
+}
+
+#nav .selected,#nav a:hover {
+	color:#000;
+	background-color:#3366FF;
+	text-decoration:none;
+	padding:4px 10px 4px 10px;
+}
+
+
+
+
+.box
+{
+padding-left:10px;
+padding-right:10px;
+border:1px #CCCCCC solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*calendar*/
+
+.yui-calcontainer{overflow:hidden; background-color:#FFFFFF; width:180px; height:178px;}
+.yui-calcontainer iframe{position:absolute;border:ridge;margin:0;padding:0;z-index:0;left:0px;top:0px;}
+.yui-calcontainer.multi .groupcal{z-index:1;float:left;position:relative;}
+.yui-calcontainer .title{position:relative;z-index:1;}
+.yui-calendar .calnavleft{z-index:1;}
+.yui-calendar .calnavright{ z-index:1;}
+.yui-calendar .calbody a:hover{background:inherit;}
+p#clear{clear:left;}
+.yui-calcontainer{background-color:#ccc;border:1px solid #000000;}
+.yui-calendar .calheader{text-align:center;left:-790px;top:-70px;}
+.yui-skin-sam .yui-calendar{text-align:center;}
+
+.yui-calendar .calheader{text-align:center;font-size:11px;height:10px;}/*height between month & year*/
+
+.yui-calendar .calnavleft{ background-image:url(../images/arrow2.gif);background-repeat:no-repeat;width:100px;height:100px;cursor:pointer;}
+ .yui-calendar .calnavright{background-image:url(../images/arrow1.gif);background-repeat:no-repeat;cursor:pointer;}
+ .yui-calendar .calweekdayrow{background-color:#ccc;height:0em;}/*control the height between week days and year display)
+*/
+ .yui-calendar .calweekdaycell{font-family:arial; font-size:10px;width:2.2em; color:#000000;}/*weekday name*/
+ .yui-calendar .calrowhead, .yui-calendar .calrowfoot{color:#a6a6a6;font-style:normal;font-weight:normal;}
+ .yui-calendar .calrowhead{text-align:right;padding-right:0px;}
+ .yui-calendar .calrowfoot{text-align:left;padding-left:0px;}
+ .yui-calendar td.calcell{ border:#000000 solid 1px;background-color:#FFFFFF;text-align:center;height:15px;width:20px; }/*all num box*/
+  .yui-calendar td.calcellevent{vertical-align:top; text-decoration:none; font-family:Arial;  font-size:10px; color:#000000; background-color:#FFFFFF;border:#000000 solid 1px;text-align:center;  }
+ /*.yui-calendar td.calcellevent{  background-color:#000000;text-align:center;  }*/
+ .yui-calendar td.calcell a{font-family:Arial;  font-size:10px; color:#000000;text-decoration:none;}/*num css*/
+ .yui-calendar td.calcellevent a{font-family:Arial;  font-size:10px; color:#000000;text-decoration:none;}/*num css*/
+ .yui-calendar td.calcell.today {background-color:#FFBA75;}/*background color of highlighted day*/
+  .yui-calendar td.calcellevent.today {background-color:#FFBA75;}/*background color of highlighted day*/
+
+ .yui-calendar td.calcell.oom{border:#ccc solid 1px;cursor:default;background-color:#ccc;color:#ccc;}/*hiden num*/
+ .yui-calendar td.calcell.selected{}/*background-color:#ccc;color:#c1e006;hidden num*/
+ .yui-calendar td.calcell.selected {background-color:#c4d2e5;}
+
+
+
+
